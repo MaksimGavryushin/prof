@@ -24,6 +24,14 @@ body {
     margin: 0 auto;
 }
 
+.header__icon {
+    fill: var(--white);
+}
+
+a:focus .header__icon {
+    background: var(--grayish-green);
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -45,6 +53,11 @@ body {
     display: flex;
     justify-content: space-between;
     min-height: 75px;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
     align-items: center;
 }
 
@@ -322,7 +335,7 @@ body {
 .footer__reviews-input {
     display: block;
     width: 256px;
-    height: 47px;
+    height: 49px;
     margin: 32px 0 0 0;
     background: var(--gray);
     -webkit-border-top-left-radius: 30px;
@@ -332,11 +345,11 @@ body {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border: none;
+    padding: 0 0 0 22px;
 }
 
 input::placeholder {
-    color: var(--black);
-    padding: 8px 22px;
+    color: var(--black);  
 }
 
 .footer__reviews-button {
