@@ -1,0 +1,55 @@
+a .header__icon {
+    fill: $white;
+    width: 34px;
+    min-height: 34px;
+}
+
+a:hover .header__icon {
+    background: $dark-pink;
+    fill: $grayish-green;
+}
+
+a:focus .header__icon {
+    fill: $light-pink;
+}
+
+a:active .header__icon {
+    fill: $blue;
+}
+
+.header {
+    background-color: $black;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__link {
+    margin: 0 0 0 34px;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+}
