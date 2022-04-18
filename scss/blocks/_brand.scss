@@ -12,9 +12,7 @@
 }
 
 .brand__title {
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 58px;
+    @include font(48px, 58px, 900);
     text-transform: uppercase;
     position: relative;
 }
@@ -31,9 +29,7 @@
 
 .brand__subtitle {
     display: block;
-    font-size: 37px;
-    font-weight: 700;
-    line-height: 44px;
+    @include font(37px, 44px, 700);
 }
 
 .brand__subtitle-pink {

@@ -1,6 +1,5 @@
 .catalog__title {
-    font-size: 30px;
-    line-height: 36px;
+    @include font(30px, 36px);
     color: $black;
     text-align: center;
     margin: 96px 0 0 0;
@@ -26,8 +25,7 @@
 }
 
 .catalog__title-product {
-    font-size: 13px;
-    line-height: 16px;
+    @include font(13px, 16px);
     color: $black-dark;
     text-transform: uppercase;
     margin: 25px 0 0 18px;
@@ -40,8 +38,7 @@
 }
 
 .catalog__price {
-    font-size: 16px;
-    line-height: 19px;
+    @include font(16px, 19px);
     color: $dark-pink;
     margin: 18px 0 20px 18px;
 } 

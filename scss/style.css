@@ -152,8 +152,9 @@ a:active .header__icon {
 
 .brand__title {
   font-size: 48px;
-  font-weight: 900;
   line-height: 58px;
+  font-weight: 900;
+  font-style: normal;
   text-transform: uppercase;
   position: relative;
 }
@@ -171,8 +172,9 @@ a:active .header__icon {
 .brand__subtitle {
   display: block;
   font-size: 37px;
-  font-weight: 700;
   line-height: 44px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .brand__subtitle-pink {
@@ -182,6 +184,8 @@ a:active .header__icon {
 .catalog__title {
   font-size: 30px;
   line-height: 36px;
+  font-weight: 400;
+  font-style: normal;
   color: #222222;
   text-align: center;
   margin: 96px 0 0 0;
@@ -209,6 +213,8 @@ a:active .header__icon {
 .catalog__title-product {
   font-size: 13px;
   line-height: 16px;
+  font-weight: 400;
+  font-style: normal;
   color: #000000;
   text-transform: uppercase;
   margin: 25px 0 0 18px;
@@ -223,6 +229,8 @@ a:active .header__icon {
 .catalog__price {
   font-size: 16px;
   line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
   color: #F16D7F;
   margin: 18px 0 20px 18px;
 }
@@ -285,6 +293,8 @@ a:active .header__icon {
   margin: auto;
   font-size: 16px;
   line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
   color: #FFFFFF;
 }
@@ -292,6 +302,8 @@ a:active .header__icon {
 .sales__text-pink {
   font-size: 24px;
   line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
   color: #F16D7F;
 }
@@ -322,6 +334,8 @@ a:active .header__icon {
 .vip-info__heading {
   font-size: 20px;
   line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
   color: #F8F8F8;
   margin: 25px 0 16px 0;
 }
@@ -359,6 +373,8 @@ a:active .header__icon {
   margin: 30px 0 0 0;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
 }
 
@@ -372,12 +388,15 @@ a:active .header__icon {
   font-size: 24px;
   line-height: 40px;
   font-weight: 700;
+  font-style: normal;
   text-transform: uppercase;
 }
 
 .footer__reviews-subscribe-text {
   font-size: 18px;
   line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -453,8 +472,8 @@ input::placeholder {
 .footer-info__icon {
   max-height: 15px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 8px;
 }
 
