@@ -2,6 +2,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @include mobile {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .sales__item {
@@ -13,6 +18,17 @@
     background-repeat: no-repeat;
     text-transform: uppercase;
     display: flex;
+
+    @include tablet {
+        width: 232px;
+        min-height: 167px;
+    }
+
+    @include mobile {
+        width: 343px;
+        min-height: 247px;
+        margin: 32px 0 0 0;
+    }
 }
 
 .sales__item--woman {
@@ -40,19 +56,29 @@
     width: 1140px;
     min-height: 180px;
     margin: 30px 0 0 0;
+
+    @include tablet {
+        width: 735px;
+        min-height: 116px;
+        margin: 20px 0 0 0;
+    }
+
+    @include mobile {
+        width: 343px;
+        min-height: 111px;
+        margin: 32px 0 0 0;
+    }
 }
 
 .sales__text {
     margin: auto;
-    font-size: 16px;
-    line-height: 19px;
+    @include font(16px, 19px);
     text-align: center;
     color: $white;
 }
 
 .sales__text-pink {
-    font-size: 24px;
-    line-height: 28px;
+    @include font(24px, 28px);
     text-align: center;
     color: $dark-pink;
 }
