@@ -3,11 +3,28 @@
     color: $black;
     text-align: center;
     margin: 96px 0 0 0;
+
+    @include tablet {
+        margin: 155px 0 0 0;
+    }
+
+    @include mobile {
+        margin: 64px 0 0 0;
+    }
 }
 
 .catalog__text {
     text-align: center;
+    color: $dark-grey;
     margin: 6px 0 48px 0;
+
+    @include tablet {
+        margin: 3px 0 73px 0;
+    }
+
+    @include mobile {
+        margin: 3px 0 64px 0;
+    }
 }
 
 .catalog__list {
@@ -22,6 +39,16 @@
     min-height: 581px;
     background-color: $ghostly-white;
     margin: 0 0 30px 0;
+
+    @include tablet {
+        margin: 0 0 16px 0;
+    }
+
+    @include mobile {
+        width: 359px;
+        min-height: 579px;
+        margin: 0 0 16px 0;
+    }
 }
 
 .catalog__title-product {
@@ -46,9 +73,14 @@
 .catalog__button {
     min-width: 211px;
     min-height: 47px;
-    border: 1px solid #FF6A6A;
-    color: $red;
-    background: $white;
+    border: 1px solid $red-button;
+    color: $white;
+    background: $dark-pink;
     display: block;
     margin: 0 auto;
+
+    @include tablet {
+        color: $red;
+        background: $white;
+    }  
 }

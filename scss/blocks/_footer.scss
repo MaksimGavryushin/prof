@@ -5,6 +5,14 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    @include tablet {
+        min-height: 693px;
+    }
+
+    @include mobile {
+        min-height: 550px;
+    }
 }
 
 .footer__reviews-item {
@@ -12,6 +20,20 @@
     justify-content: space-between;
     align-items: center;
     min-height: 448px;
+
+    @include tablet {
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 693px;
+        padding: 53px 0 0 0;
+    }
+
+    @include mobile {
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 550px;
+        padding: 54px 0 0 0;
+    }
 }
 
 .footer__reviews-info {
@@ -31,6 +53,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include tablet {
+        margin: 48px 0 0 0;
+    }
+
+    @include mobile {
+        margin: 59px 0 0 0;
+    }
 }
 
 .footer__reviews-subscribe {
@@ -93,6 +123,14 @@ input::placeholder {
     justify-content: space-between;
     min-height: 79px;
     align-items: center;
+
+    @include mobile {
+        flex-direction: column-reverse;
+        min-height: 143px;
+        justify-content: flex-start;
+        padding: 9px 0 15px 0;
+
+    }
 }
 
 .footer-info__copyright {
@@ -102,6 +140,10 @@ input::placeholder {
 .footer-info__list {
     display: flex;
     justify-content: flex-end;
+
+    @include mobile {
+        margin: 0 0 40px 0;
+    }
 }
 
 .footer-info__social {
