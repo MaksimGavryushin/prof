@@ -12,7 +12,7 @@
 .sales__item {
     padding: 20px;
     box-sizing: border-box;
-    width: 360px;
+    width: 31.6%;
     min-height: 260px;
     background-color: $sales-bkg-color;
     background-repeat: no-repeat;
@@ -20,12 +20,12 @@
     display: flex;
 
     @include tablet {
-        width: 232px;
+        width: 31.6%;
         min-height: 167px;
     }
 
     @include mobile {
-        width: 343px;
+        width: 100%;
         min-height: 247px;
         margin: 32px 0 0 0;
     }
@@ -53,7 +53,7 @@
     background-image: url(../img/accesories.jpg);
     background-position: center;
     background-size: cover;
-    width: 1140px;
+    width: 100%;
     min-height: 180px;
     margin: 30px 0 0 0;
 

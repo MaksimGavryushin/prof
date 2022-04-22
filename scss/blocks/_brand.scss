@@ -18,6 +18,15 @@
     align-items: center;
     background-color: $light-pink;
 
+    @include tablet {
+        padding: 0 0 0 92px;
+    }
+
+    @include tablet-mobile-mid {
+        min-height: 363px;
+        padding: 0 0 0 83px;
+    }
+
     @include mobile {
         justify-content: center;
     }
@@ -25,10 +34,15 @@
 
 .brand__img {
     width: 50%;
-    min-height: 370px;
     object-fit: cover;
 
-    @include mobile{
+    @include tablet {
+        width: 50%;
+        min-height: 370px;
+        object-fit: cover;
+    }
+
+    @include tablet-mobile-mid {
         display: none;
     }
 }
