@@ -42,6 +42,7 @@
 .vip-info__heading {
     @include font(20px, 24px);
     color: $ghostly-white;
+    text-align: center;
     margin: 25px 0 16px 0;
 }
 
