@@ -7,8 +7,18 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 71.3%;
+    //1140px
     margin: 0 auto;
+    //max-width: 1140px;
+
+    @include tablet {
+        width: 95.6%;
+    }
+
+    @include mobile {
+        width: 91.5%;
+    }
 }
 
 .visually-hidden {
@@ -28,14 +38,14 @@ img {
     display: block;
 }
 
-@media (max-width: $desktop-width) {
-    .container {
-        width: 735px;
-    }
-}
+//@media (max-width: $desktop-width) {
+//    .container {
+//        width: 735px;
+//    }
+//}
 
-@media (max-width: $tablet-width) {
-    .container {
-        width: 359px;
-    }
-}
+//@media (max-width: $tablet-width) {
+//    .container {
+//        width: 359px;
+//    }
+//}
