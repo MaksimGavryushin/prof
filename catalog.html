@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Главная</title>
+    <title>Catalog</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -115,48 +115,28 @@
         </div>
     </header>
     <main>
-        <section class="brand">
-            <img class="brand__img" src="./img/man.jpg" alt="man">
-            <div class="brand__title-wrp">
-                <h1 class="brand__title tracking-in-expand">the brand <span class="brand__subtitle">of luxerious<span class="brand__subtitle-pink"> fashion</span></span></h1>
-            </div>
-        </section>
-        <section class="sales">
-            <div class="container">
-                <h2 class="visually-hidden">sales</h2>
-                <ul class="sales__list">
-                    <li class="sales__item sales__item--woman">
-                        <div class="sales__text-box">
-                            <p class="sales__text">30% off</p>
-                            <p class="sales__text-pink">for women</p>
-                        </div>
+        <section class="heading">
+            <div class="container heading__block">
+                <h1 class="heading__item">new arrivals</h1>
+                <ul class="heading__list">
+                    <li class="heading__list-point">
+                        <a href="#" class="heading__link">home</a>
                     </li>
-                    <li class="sales__item sales__item--man">
-                        <div class="sales__text-box">
-                            <p class="sales__text">hot deal</p>
-                            <p class="sales__text-pink">for men</p>
-                        </div>
+                    <li class="heading__list-point"> / </li>
+                    <li class="heading__list-point">
+                        <a href="#" class="heading__link">men</a>
                     </li>
-                    <li class="sales__item sales__item--kids">
-                        <div class="sales__text-box">
-                            <p class="sales__text">new arrivals</p>
-                            <p class="sales__text-pink">for kids</p>
-                        </div>
+                    <li class="heading__list-point"> / </li>
+                    <li class="heading__list-point">
+                        <a href="#" class="heading__link heading__link-pink">new arrivals</a>
                     </li>
-                    <li class="sales__item sales__item--shoes">
-                        <div class="sales__text-box">
-                            <p class="sales__text">luxirous & trendy</p>
-                            <p class="sales__text-pink">accesories</p>
-                        </div>
-                    </li>
-                </ul>
+                </ul>    
             </div>
         </section>
         <section class="catalog">
             <div class="container">
-                <h2 class="catalog__title">Fetured Items</h2>
-                <p class="catalog__text">Shop for items based on what we featured in this week</p>
-                <ul class="catalog__list">
+                <h2 class="visually-hidden">Fetured Items</h2>
+                <ul class="catalog__list catalog__list-margin">
                     <li class="catalog__item">
                         <img class="catalog__item-image" src="./img/prod-1.jpg" alt="product">
                         <h3 class="catalog__title-product">ellery x m'o capsule</h3>
@@ -193,8 +173,25 @@
                         <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                         <p class="catalog__price">$52.00</p>
                     </li>
+                    <li class="catalog__item">
+                        <img class="catalog__item-image" src="./img/prod-1.jpg" alt="product">
+                        <h3 class="catalog__title-product">ellery x m'o capsule</h3>
+                        <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="catalog__price">$52.00</p>
+                    </li>
+                    <li class="catalog__item">
+                        <img class="catalog__item-image" src="./img/prod-1.jpg" alt="product">
+                        <h3 class="catalog__title-product">ellery x m'o capsule</h3>
+                        <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="catalog__price">$52.00</p>
+                    </li>
+                    <li class="catalog__item">
+                        <img class="catalog__item-image" src="./img/prod-1.jpg" alt="product">
+                        <h3 class="catalog__title-product">ellery x m'o capsule</h3>
+                        <p class="catalog__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="catalog__price">$52.00</p>
+                    </li>
                 </ul>
-                <button class="catalog__button">Browse All Product</button>
             </div>
         </section>
         <section class="vip-info">
@@ -281,6 +278,5 @@
             </div>
         </section>
     </footer>
-    <script src="./js/bootstrap.bundle.js"></script>
 </body>
 </html>

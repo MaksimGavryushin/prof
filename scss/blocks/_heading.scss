@@ -1,0 +1,35 @@
+.heading {
+    background-color: $smoky-white;
+}
+
+.heading__block {
+    min-height: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading__item {
+    text-transform: uppercase;
+    @include font(24px, 29px);
+    color: $dark-pink;
+}
+
+.heading__list {
+    display: flex;
+}
+
+.heading__list-point {
+    margin: 0 0 0 3px;
+}
+
+.heading__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    @include font(14px, 17px, 300);
+    color: $dull-grey;
+}
+
+.heading__link-pink {
+    color: $dark-pink;
+}
