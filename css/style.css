@@ -1,7 +1,27 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/lato-regular.woff2) format("woff2");
+  src: url(../fonts/lato-regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/lato-bold.woff2) format("woff2");
+  src: url(../fonts/lato-bold.woff) format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/lato-italic.woff2) format("woff2");
+  src: url(../fonts/lato-italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,7 +42,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -326,6 +345,48 @@ a:active .header__icon {
   }
 }
 
+.heading {
+  background-color: #F8F3F4;
+}
+
+.heading__block {
+  min-height: 148px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading__item {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  font-style: normal;
+  color: #F16D7F;
+}
+
+.heading__list {
+  display: flex;
+}
+
+.heading__list-point {
+  margin: 0 0 0 3px;
+}
+
+.heading__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
+  color: #636363;
+}
+
+.heading__link-pink {
+  color: #F16D7F;
+}
+
 .catalog__title {
   font-size: 30px;
   line-height: 36px;
@@ -371,6 +432,10 @@ a:active .header__icon {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 0 18px 0;
+}
+
+.catalog__list-margin {
+  margin: 65px 0 48px 0;
 }
 
 .catalog__item {
